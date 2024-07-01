@@ -1,0 +1,97 @@
+@media screen and (max-width: 578px) {
+    header{
+        background-color: #131921;
+        padding: 0.3rem 0.2rem;
+    }
+
+    .navbar-full {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap:0.5rem
+      }
+
+      .navbar-bottom {
+        background-color: #232f3e;
+        
+      }
+      
+      .nav-bottom {
+        padding: 0.8rem 0.3rem;
+      }
+
+      .nav-list li {
+        display: block;
+        margin: 3% 0;
+      }
+      
+      .nav-list {
+        display: block;
+      }
+      
+      .nav-list li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 0.9rem;
+        padding: 0.3rem;
+        border: 2px solid transparent;
+      }
+
+      .nav-list li {
+        display: inline;
+        margin-right: 3%;
+      }
+      
+      .nav-list {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .nav-list li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 0.9rem;
+        padding: 0.3rem;
+        border: 2px solid transparent;
+        
+      }
+
+      .table-row{
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        gap: 3rem;
+        padding: 3rem 0;
+        align-items: center;
+      }
+
+      .table-item div{
+          text-align: center;
+      }
+
+      .table-item ul li {
+          text-align: center;
+      }
+
+      .navFooterDescItem{
+          width: 100%;
+      }
+
+      tbody tr {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+      }
+
+      .navFooterDescItem a{
+          text-align: center;
+          display: block;
+          margin-bottom: 2%;
+      }
+      
+}
